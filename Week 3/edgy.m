@@ -1,3 +1,4 @@
+% The following function mimic the built-in function "edge" from the Matlab Toolbox, based on the sobel operator. 
 function output =edgy(cc)
 C=double(cc);
 
