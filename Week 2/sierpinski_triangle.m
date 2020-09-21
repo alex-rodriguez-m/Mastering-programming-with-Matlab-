@@ -1,23 +1,7 @@
 % ----------------------------------------------------------------------- %
 %         S I E R P I N S K I    F R A C T A L    T R I A N G L E         %
 % ----------------------------------------------------------------------- %
-% This function provides a bearable algorithm for generating a fractal    %
-% image, in particular, the Sierpinski triangle.                          %
-%                                                                         %
-%   Input parameters:                                                     %
-%       · it:   Number of iterations. The greater number of iterations are%
-%               required, the more computational charge is needed. Please,%
-%               note that it must be greater or equal than 0.             %
-%                                                                         %
-% ----------------------------------------------------------------------- %
-%   Author:  Víctor Martínez Cagigal                                      %
-%   Date:    15/01/2015                                                   %
-%   Version:                                                              %
-%               v1.0. Original script (15/01/2015).                       %
-%               v2.0. Default empty triangle with it=0 is now enabled     %
-%                     (11/01/2018).                                       %
-%   E-mail:  vicmarcag (dot) gmail (dot) com                              %
-% ----------------------------------------------------------------------- %
+
 function sierpinski_triangle(it)
     % Error detection
     if(nargin < 1), error('Please, specify the number of iterations.'); end
